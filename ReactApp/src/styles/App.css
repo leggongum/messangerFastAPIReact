@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Optima', sans-serif;
+}
+
+#root{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+}
+
+.chat-not-selected{
+  align-items: center;
+  justify-content: space-between;
+  color: azure;
+  background-color: #c0c0c0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}

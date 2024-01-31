@@ -1,0 +1,47 @@
+.channel-menu{
+    width: 50px;
+    height: 100vh;
+    background-color: rgb(24, 26, 25);
+    align-items: center;
+}
+
+.channel{
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+    background-color: rgb(78, 83, 83);
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 44px;
+    color: rgb(35, 165, 89);
+    width: 100%;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+[customtitle]:hover:after{
+    content: attr(customtitle);
+    background-color: rgb(24, 26, 25);
+    color:azure;
+    padding: 15px;
+    z-index: 100;
+    font-size: 20px;
+    border-radius: 5%;
+    position: absolute;
+    left: 60px;
+}
+
+.channel:hover {
+    border-radius: 35%;
+  }
+
+
+.selected_channel{
+    border-radius: 35%;
+    background-color: rgb(96, 96, 226);
+}
+
+#private-chats:hover{
+    border-radius: 35%;
+    background-color: rgb(96, 96, 226);
+}

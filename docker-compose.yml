@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  web:
+    image: nginx:alpine
+    depends_on:
+        - app
+    ports:
+        - "80:80"
+    volumes:
+    - ./app/conf.d:/etc/nginx/conf.d
+    
+  app: 
+    build: ./MessangerFastAPI
+    
+  react:
+    build: ./ReactApp
+    env_file:
+        - .env

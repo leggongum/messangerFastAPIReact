@@ -1,0 +1,81 @@
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+
+}
+.modal-window{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    width: 550px;
+    min-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0, .4);
+    background-color: rgb(49, 51, 56);
+    color: rgb(242, 243, 244);
+    padding: 20px;
+    word-break: break-word;
+}
+
+.title-window{
+    padding: 5px;
+}
+
+.cancel{
+    align-self: end;
+}
+
+.body-window{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+.input-container{
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+.input-label{
+    padding: 5px;
+}
+
+.input-window{
+    padding: 5px;
+}
+
+.Btn{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(70, 164, 109);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 200px;
+    align-self: end;
+}
+
+.Btn:hover{
+    background-color: rgb(79, 187, 124);
+    color: azure;
+}

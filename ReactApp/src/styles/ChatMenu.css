@@ -1,0 +1,35 @@
+.chat-menu{
+    width: max(20vw, 150px);
+    height: 100vh;
+    background-color: rgb(78, 83, 83);
+    align-items: center;
+}
+
+.chat{
+    cursor: pointer;
+    background-color: rgb(78, 83, 83);
+    border-radius: 5%;
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(196, 196, 196);
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.selected_chat{
+    background-color: rgb(108, 114, 114);
+    color: azure;
+}
+
+.chat:hover{
+    background-color: rgb(108, 114, 114);
+    color: azure;
+}
+
+.user-list{
+    overflow-y: auto;
+}
